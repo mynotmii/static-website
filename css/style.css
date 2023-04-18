@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
 }
 
 body{
@@ -32,6 +33,7 @@ nav{
 .name{
     font-family: aboreto;
     font-size: 1.2rem;
+    color:black;
 }
 
 
@@ -127,6 +129,9 @@ nav{
 h3{
     margin-left: 30px;
     font-smooth: always;
+    font-size: 25px;
+    font: italic;
+    color: rgba(15, 40, 139, 0.989);
 }
 
 section{
@@ -142,11 +147,12 @@ section{
 }
 
 .book{
-    
+    background-color: rgba(238, 241, 244, 0.465);
     width: 200px;
     height: 370px;
     box-sizing: 300px;
     padding: 25px 15px;
     box-shadow: 0px 0px 0px;
     margin: 15px;
+    border-radius: 3%;
 }
