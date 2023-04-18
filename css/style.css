@@ -20,11 +20,17 @@ body a{
 
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    padding: 20px 80px; 
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.66);
     position: sticky;
-}
+    z-index: 999;
+    top: 0;
+    left: 0;
+} 
+
 
 .name{
     font-family: aboreto;
@@ -143,10 +149,15 @@ section{
 
 #book-img img{
     width: 200px;
-    height: 300px;
+    height: 300px;  
 }
 
 .book{
-    width: 20%;
-    max-width: 200px;
+    
+    width: 200px;
+    height: 370px;
+    box-sizing: 300px;
+    padding: 25px 15px;
+    box-shadow: 0px 0px 0px;
+    margin: 15px;
 }
