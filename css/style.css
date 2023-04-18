@@ -9,6 +9,7 @@ body{
     justify-content: center;
     font-family: aboreto;
     font-size:small;
+    background-color: aliceblue;
 }
 
 body a{
@@ -134,11 +135,13 @@ h3{
     color: rgba(15, 40, 139, 0.989);
 }
 
-section{
+section .flex{
     padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    margin: 30px;
 }
 
 #book-img img{
@@ -147,12 +150,10 @@ section{
 }
 
 .book{
-    background-color: rgba(238, 241, 244, 0.465);
     width: 200px;
     height: 370px;
     box-sizing: 300px;
     padding: 25px 15px;
     box-shadow: 0px 0px 0px;
     margin: 15px;
-    border-radius: 3%;
 }
