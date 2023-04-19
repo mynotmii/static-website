@@ -2,11 +2,13 @@
 *{
     margin: 0;
     padding: 0;    
+    font-smooth: always;
+    text-decoration: none;
+    color: black;
 }
 
-h3{
+h3 a{
     margin-left: 30px;
-    font-smooth: always;
     font-size: 25px;
     font: italic;
     color: rgba(15, 40, 139, 0.989);
@@ -15,7 +17,13 @@ h3{
 h4{
     font-family: 'Spartan', sans-serif;
     font-size: 20px;
-    color: #222;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
 }
 
 .section-p1{
@@ -38,11 +46,6 @@ body{
     background-color: aliceblue;
 }
 
-body a{
-    text-decoration: none;
-    color: black;
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -63,6 +66,9 @@ nav{
     color:black;
 }
 
+.author{
+    color: black;
+}
 
 .icon img {
     width: 45px;
@@ -143,9 +149,14 @@ nav{
 }
 
 .navbar-login a{
-    padding: 10px
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 900;
 }
 
+.navbar-login a:hover{
+    color:#088178;
+}
 
 section .flex{
     padding: 50px;
@@ -229,3 +240,62 @@ section .flex{
     border-bottom-left-radius: 0;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover, footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    align-self: center;
+    width: 100%
+}
