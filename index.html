@@ -6,57 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="/static-website/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <div class="navbar-logo">
-            <a href="/static-website/index.html">
-                <img src="/static-website/img/logo.png" alt="logo" id="logo">
-            </a>
-        </div>
+        <a href="/static-website/index.html"><img src="/static-website/img/logo.png" alt="logo" id="logo"></a>
         <div class="navbar-items">
-            <ul>
+            <ul id="navbar-items">
                 <li id="list">
-                    <a href="/static-website/html/fiction.html">
-                        <span class="icon">
-                            <img src="/static-website/img/rocking-horse.png" alt="rocking-horse" onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this )">
-                        </span>
-                        <span class="text">Chidren's</span>
-                    </a>
+                    <a href="/static-website/html/fiction.html">Fiction</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/fiction.html">
-                        <span class="icon">
-                            <img src="/static-website/img/rock-star.png" alt="rock-star" onmouseover="changeImage(3,this)" onmouseout="changeImage(4,this)">
-                        </span>
-                        <span class="text">Fiction</span>
-                    </a>
+                    <a href="/static-website/html/nonfic.html">Non-Fiction</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/nonfic.html">
-                        <span class="icon">
-                            <img src="/static-website/img/globe-earth.png" alt="" onmouseover="changeImage(5,this)" onmouseout="changeImage(6,this)">
-                        </span>
-                        <span class="text">Non-fiction</span>
-                    </a>
+                    <a href="/static-website/html/poetry.html">Poetry</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/textbook.html">
-                        <span class="icon">
-                            <img src="/static-website/img/books.png" alt="books" onmouseover="changeImage(7,this)" onmouseout="changeImage(8,this)">
-                        </span>
-                        <span class="text">Text Book</span>
-                    </a>
+                    <a href="/static-website/html/travel.html">Travel books</a>
                 </li>
+                <li id="list">
+                    <a href="/static-website/html/login.html" class="cap">login</a>
+                </li>
+                <li id="list">
+                    <a href="/static-website/html/signup.html" class="cap">sign up</a>
+                </li>
+                <a href="#" id="close"><li class="fa-regular fa-circle-xmark fa-xl"></li></a>
             </ul>
         </div>
-        <div class="navbar-login">
-            <a href="/static-website/html/login.html">login</a>
-            <a href="/static-website/html/signin.html">sign up</a>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent fa-2xl"></i>
         </div>
+
     </nav> 
 
     <section id="main">
@@ -130,7 +111,7 @@
             </section>
         </section>
         <section id="main">
-        <h3><a href="/static-website/html/children.html">children's books</a></h3>
+        <h3><a href="/static-website/html/children.html">Children's Books</a></h3>
         <section class="flex">
             <div class="book">
                 <a href="detail.html">
@@ -155,7 +136,7 @@
                     <span id="book-img">
                         <img src="img/img9.png" alt="Wonder">
                     </span> <br>
-                    <span class="name">wonder</span> <br>
+                    <span class="name">Wonder</span> <br>
                     <span class="author">by Palacis</span>
                 </a>
             </div>
@@ -289,6 +270,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/3ca3267262.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="/static-website/script.js"></script>
 </body>
 </html>
