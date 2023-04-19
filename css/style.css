@@ -7,7 +7,7 @@
     color: black;
 }
 
-h3 a{
+h3 a, h3{
     margin-left: 30px;
     font-size: 25px;
     font: italic;
@@ -24,6 +24,10 @@ p{
     font-size: 16px;
     color: #465b52;
     margin: 15px 0 20px 0;
+}
+
+.head{
+    margin-top: 30px;
 }
 
 .section-p1{
