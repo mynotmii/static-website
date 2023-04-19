@@ -290,6 +290,7 @@ footer .copyright{
     }
 
     #close{
+        display: initial;
         position:absolute;
         top: 30px;
         left: 10px;
