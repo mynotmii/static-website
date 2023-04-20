@@ -13,84 +13,97 @@
 </head>
 <body>
     <nav>
-        <div class="navbar-logo">
-            <a href="/static-website/index.html">
-                <img src="/static-website/img/logo.png" alt="logo" id="logo">
-            </a>
-        </div>
+        <a href="/static-website/index.html"><img src="/static-website/img/icons/logo.png" alt="logo" id="logo"></a>
         <div class="navbar-items">
-            <ul>
+            <ul id="navbar-items">
                 <li id="list">
-                    <a href="/static-website/html/children.html">
-                        <span class="icon">
-                            <img src="/static-website/img/rocking-horse.png" alt="rocking-horse" onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this )">
-                        </span>
-                        <span class="text">Chidren's</span>
-                    </a>
+                    <a href="/static-website/html/fiction.html">Fiction</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/fiction.html">
-                        <span class="icon">
-                            <img src="/static-website/img/rock-star.png" alt="rock-star" onmouseover="changeImage(3,this)" onmouseout="changeImage(4,this)">
-                        </span>
-                        <span class="text">Fiction</span>
-                    </a>
+                    <a href="/static-website/html/nonfic.html">Non-Fiction</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/nonfic.html">
-                        <span class="icon">
-                            <img src="/static-website/img/globe-earth.png" alt="" onmouseover="changeImage(5,this)" onmouseout="changeImage(6,this)">
-                        </span>
-                        <span class="text">Non-fiction</span>
-                    </a>
+                    <a href="/static-website/html/poetry.html">Poetry</a>
                 </li>
                 <li id="list">
-                    <a href="/static-website/html/textbook.html">
-                        <span class="icon">
-                            <img src="/static-website/img/books.png" alt="books" onmouseover="changeImage(7,this)" onmouseout="changeImage(8,this)">
-                        </span>
-                        <span class="text">Text Book</span>
-                    </a>
+                    <a href="/static-website/html/travel.html">Travel books</a>
                 </li>
+                <li id="list">
+                    <a href="/static-website/html/login.html" class="cap">login</a>
+                </li>
+                <li id="list">
+                    <a href="/static-website/html/signup.html" class="cap">sign up</a>
+                </li>
+                <a href="#" id="close"><li class="fa-regular fa-circle-xmark fa-xl"></li></a>
             </ul>
         </div>
-        <div class="navbar-login">
-            <a href="/static-website/html/login.html">login</a>
-            <a href="/static-website/html/signin.html">sign up</a>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent fa-2xl"></i>
         </div>
     </nav> 
-    </nav> 
-    <section id="main">
-        <h3 class="head">Text books</h3>
-        <section class="flex">
-            <div class="book">
-                <a href="detail.html">
-                    <span id="book-img">
-                        <img src="/img/img13.jpeg" alt="name of book">
-                    </span> <br>
-                    <span class="name">name of book</span> <br>
-                    <span class="author">by</span>
-                </a>
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shope and <span>speacial offers.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/icons/logo.png" alt="logo" id="logo">
+            <h4>Contact</h4>
+            <p><strong>Email Address: </strong>info@bookstore.vn</p>
+            <p><strong>Phone: </strong>(555) 555-5555</p>
+            <p><strong>Hours: </strong>10:00 - 20:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </div>
             </div>
-            <div class="book">
-                <a href="detail.html">
-                    <span id="book-img">
-                        <img src="/img/img14.jpeg" alt="name of book">
-                    </span> <br>
-                    <span class="name">name of book</span> <br>
-                    <span class="author">by</span>
-                </a>
+        </div>
+
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/icons/app.jpg" alt="app store">
+                <img src="img/icons/play.jpg" alt="googgle play">
             </div>
-            <div class="book">
-                <a href="detail.html">
-                    <span id="book-img">
-                        <img src="/img/img15.jpeg" alt="name of book">
-                    </span> <br>
-                    <span class="name">name of book</span> <br>
-                    <span class="author">by</span>
-                </a>
-            </div>
-        </section>
-<script src="/static-website/script.js"></script>
+            <p>Scured Payment Gateways</p>
+            <img src="img/icons/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 Bookstore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/3ca3267262.js" crossorigin="anonymous"></script>
+    <script src="/static-website/script.js"></script>
 </body>
 </html>
