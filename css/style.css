@@ -73,13 +73,13 @@ nav{
 } 
 
 .homepage{
-    margin: 50px;
+    margin-inline: 150px;
 }
 
 .name{
     font-family: 'aboreto';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 300;
     color:black;
 }
 
@@ -129,7 +129,7 @@ section{
 }
 /*books*/
 .book img{
-    width: 180px;
+    width: 200px;
     height: 300px;
     align-self: center;
     padding: 10px;
