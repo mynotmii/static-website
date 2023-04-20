@@ -137,13 +137,14 @@ section{
 }
 
 .book{
+    background-color: white;
     width: 23%;
     width: 250px;
     max-width: 250px;
     height: 400px;
     max-height: 400px;
     padding: 10px 12px;
-    border: 1px solid #818ea0;
+    border: 1px;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.02);
@@ -363,7 +364,7 @@ footer .copyright{
 
     #main h3{
         text-align: center;
-        background-color: white;
+        padding-left: 20px;
     }
 
     #mobile{
@@ -379,7 +380,6 @@ footer .copyright{
     #mobile i{
         color: #1a1a1a;
         font-size: 24px;
-        padding-left: 20px;
     }
 
     #mobile:hover{
