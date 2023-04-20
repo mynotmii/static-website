@@ -113,10 +113,6 @@ nav{
     align-items: center;
 }
 
-.cap{
-    text-transform: capitalize;
-}
-
 section{
     align-items: center;
 }
@@ -207,7 +203,7 @@ section{
     white-space: no-wrap;
     font-size: 14px;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 1px 20px;
     border-radius: 4px;
     border: none;
     outline: none;
