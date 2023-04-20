@@ -78,13 +78,15 @@ nav{
 
 .name{
     font-family: 'aboreto';
-    font-size: 1.2rem;
+    font-size: 16px;
+    font-weight: 600;
     color:black;
 }
 
 .author{
     color: black;
     font-family: 'aboreto';
+    font-size: 12px;
 }
 
 #navbar-items{
@@ -116,42 +118,43 @@ nav{
 section{
     align-items: center;
 }
+
 .flex{
     text-align: center;
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
     flex-wrap: wrap;
+    margin: auto;
 }
 /*books*/
 .book img{
-    width: 200px;
+    width: 180px;
     height: 300px;
     align-self: center;
-    padding:10px;
+    padding: 10px;
+    
 }
 
 .book{
-    background-color: white;
-    padding: 30px;
-    border: 1px solid aliceblue;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 10px 10px 3;
-    margin: 15px 0;
-    width: 300px;
+    width: 23%;
+    width: 250px;
+    max-width: 250px;
     height: 400px;
+    max-height: 400px;
+    padding: 10px 12px;
+    border: 1px solid #818ea0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
     transition: 0.2s ease;
-    align-items: center;
 }
 
-.name{
-    font-size: 15px;
+.book:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
 }
 
-.author{
-    font-size: 12px;
-}
 
 /*Newsletter*/
 #newsletter{
@@ -316,7 +319,55 @@ footer .copyright{
         align-items: center;
     }
 
+    #mobile li{
+        list-style: none;
+        padding-top: 3px;
+    }
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
     #mobile:hover{
         cursor: pointer;
+    }
+
+    .bag{
+        display: none;
+    }
+
+    .homepage .book{
+        justify-content: center;
+    }
+
+    .homepage{
+        margin: 15px;
+    }
+
+    #newsletter .form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 477px) {
+    body{
+        margin: 0;
+    }
+    #navbar-items{
+        padding: 10px 30px;
+    }
+
+    section{
+        width: 100%;
+        text-align: center;
+    }
+    .flex{
+        justify-content: center;
+    }
+
+    #newsletter .form{
+        width: 100%;
     }
 }
