@@ -511,18 +511,18 @@ footer .copyright{
     }
 
     .big-img img{
-        width: 400px;
+        width: 380px;
         height: 600px;
     }
 
     .small-group{
         display: inline-flex;
         flex-direction: row;
-        width: 50%;
+        width: 100%;
     }
 
     .small-group img{
-        width: 133px;
+        width: 126.5px;
         height: 200px;
     }
 
