@@ -512,7 +512,7 @@ footer .copyright{
 
     .big-img img{
         width: 400px;
-        height: 600px
+        height: 600px;
     }
 
     .small-group{
@@ -529,7 +529,6 @@ footer .copyright{
     #details .book-detail{
         justify-content: center;
         align-items: center;
-        min-width: 450px;
-        padding-right: 50px;
+        min-width: 380px;
     }
 }
