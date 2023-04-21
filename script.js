@@ -23,3 +23,20 @@ if (close){
         nav.classList.remove('active');
     })
 }
+
+var hard = document.getElementById('hard');
+var soft = document.getElementById('paper');
+
+
+var bigImg = document.getElementById("main-img");
+var smallImg = document.getElementsByClassName("smalImg")
+
+smallImg[0].onclick = function(){
+    bigImg.src = smallImg[0].src;
+}
+smallImg[1].onclick = function(){
+    bigImg.src = smallImg[1].src;
+}
+smallImg[2].onclick = function(){
+    bigImg.src = smallImg[2].src;
+}
