@@ -510,18 +510,15 @@ footer .copyright{
         align-items: start;
     }
 
-
+    .big-img img{
+        width: 342px;
+    }
 
     .small-group{
         display: inline-flex;
         flex-direction: row;
         width: 342px;
         justify-content: space-between;
-    }
-
-    .small-group img{
-        width: 99px;
-        height: 150px;
     }
 
     #details .book-detail{
