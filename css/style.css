@@ -511,24 +511,25 @@ footer .copyright{
     }
 
     .big-img img{
-        width: 380px;
+        width: 342px;
         height: 600px;
     }
 
     .small-group{
         display: inline-flex;
         flex-direction: row;
-        width: 100%;
+        width: 342px;
+        justify-content: space-between;
     }
 
     .small-group img{
-        width: 126.5px;
-        height: 200px;
+        width: 99px;
+        height: 150px;
     }
 
     #details .book-detail{
         justify-content: center;
         align-items: center;
-        min-width: 380px;
+        min-width: 350px;
     }
 }
