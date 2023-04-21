@@ -510,10 +510,7 @@ footer .copyright{
         align-items: start;
     }
 
-    .big-img img{
-        width: 342px;
-        height: 600px;
-    }
+
 
     .small-group{
         display: inline-flex;
