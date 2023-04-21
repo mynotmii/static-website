@@ -492,9 +492,6 @@ footer .copyright{
     }
 
     /*Single Product*/
-    *{
-        padding: -40px -80px;
-    }
     #details{
         text-align: start;
         display: flex;
@@ -515,7 +512,11 @@ footer .copyright{
         width: 50%;
     }
 
-    .book-detail{
-        min-width: 300px;
+    #details .book-detail{
+        justify-content: center;
+        align-items: center;
+        min-width: 450px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
