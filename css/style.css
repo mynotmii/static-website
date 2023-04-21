@@ -27,6 +27,11 @@ html{
 
 
 /*global Variables*/
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+  }
 
 h3 a, h3{
     margin-left: 30px;
@@ -46,6 +51,18 @@ h6 {
     font-size: 12px;
   }
 
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
 
 .head{
     margin-top: 40px;
@@ -291,29 +308,77 @@ footer .copyright{
 }
 
 /*Detail page*/
+#details{
+    display: flex;
+}
+
 #details .big-img{
-    padding-top: 50px;
     width: 40%;
     margin-right: 15px;
 }
 
-.small-group{
-    display: inline-flex;
-    flex-direction: column;
-    width: 20%;
-    justify-content: space-between;
+.group-imgs{
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
-.small-group .small-imgs:hover {
+.small-group{
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+}
+
+.small-imgs:hover {
     box-shadow: 1px 1px 10px;
 }
 
-.group-imgs{
-    display: flex;
+
+#details .book-detail{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#details .book-detail h4{
+    padding: 40px 0 20px 0;
+}
+
+#details .book-detail h2{
+    font-size: 26px;
 }
 
 
+#details .book-detail select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
 
+#details .book-detail input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#details .book-detail input:hover{
+    outline: none;
+}
+
+#details .book-detail button{
+    background-color: #088178;
+    color: #fff;
+
+}
+
+.hl a:hover{
+    color:#088178;
+}
+
+#details .book-detail span{
+    line-height: 25px;
+}
 
 /*Media Screen*/
 @media (max-width:799px) {
@@ -424,5 +489,31 @@ footer .copyright{
     
     #newsletter .form{
         width: 100%;
+    }
+
+    /*Single Product*/
+
+    #details{
+        width: 100%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .group-imgs{
+        display: flex;
+        flex-direction: column;
+        width: 300%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big-img{
+        padding-left: 10px;
+    }
+    .small-group{
+        flex-direction: row;
+        width: 40%;
     }
 }
