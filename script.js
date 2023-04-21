@@ -24,9 +24,16 @@ if (close){
     })
 }
 
-var hard = document.getElementById('hard');
-var soft = document.getElementById('paper');
-
+function changePrice() {
+    var bookType = document.getElementById("book-type").value;
+    var bookPrice = document.getElementById("price");
+    if (bookType === "hardback") {
+      bookPrice.innerHTML = "$12.00";
+    } else {
+      bookPrice.innerHTML = "$5.00";
+    }
+  }
+  
 
 var bigImg = document.getElementById("main-img");
 var smallImg = document.getElementsByClassName("smalImg")

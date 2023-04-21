@@ -65,10 +65,10 @@
             <h6 class="hl"><a href="/static-website/index.html">Home</a>/<a href="/static-website/html/fiction.html">Category</a>/<a href="/static-website/html/detail.html">The Great Gatsby</a></h6>
             <h4>The Great Gatsby: The Original 1925 Edition (A F. Scott Fitzgerald Classic Novel)</h4>
             <h2 id="price">$5.00</h2>
-            <select>
+            <select id="book-type" onchange="changePrice()">
                 <option>Select Version</option>
-                <option id="paper">Paperback</option>
-                <option id="hard">Hardcover</option>
+                <option value="Paperback">Paperback</option>
+                <option value="hardback">Hardcover</option>
             </select>
             <input type="number" value="1">
             <button class="normal">Add to Cart</button>
