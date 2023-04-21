@@ -1,12 +1,134 @@
+<!--
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Your names (e.g. Nguyen Van Minh)
+    ID: Your student ids (e.g. 1234567)
+    Acknowledgement: Acknowledge the resources that you use here.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Details</title>
+    <link rel="stylesheet" href="/static-website/css/style.css">
 </head>
 <body>
-    
+    <nav>
+        <a href="/static-website/index.html"><img src="/static-website/img/icons/logo.png" alt="logo" id="logo"></a>
+        <div class="navbar-items">
+            <ul id="navbar-items">
+                <li><a href="/static-website/html/fiction.html">Fiction books</a></li>
+                <li><a href="/static-website/html/nonfic.html">Non-Fiction books</a></li>
+                <li><a href="/static-website/html/children.html">Children's books</a></li>
+                <li ><a href="/static-website/html/poetry.html">Poetry</a></li>
+                <li ><a href="/static-website/html/travel.html">Travel books</a></li>
+                <li class="bag"><a href="/static-website/html/cart.html" style="image-rendering:optimizeQuality;">
+                    <svg fill="#000000" width="30px" height="30px" viewBox="0 0 0.9 0.9" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="m0.785 0.075 0.037 0.671a0.075 0.075 0 0 1 -0.071 0.079l-0.004 0H0.152a0.075 0.075 0 0 1 -0.075 -0.075c0 -0.002 0 -0.002 0 -0.004L0.115 0.075h0.671Zm-0.6 0.075 -0.033 0.6h0.596l-0.033 -0.6H0.185ZM0.263 0.225h0.075v0.094c0 0.047 0.052 0.094 0.112 0.094s0.112 -0.047 0.112 -0.094V0.225h0.075v0.094c0 0.09 -0.087 0.169 -0.188 0.169s-0.188 -0.079 -0.188 -0.169V0.225Z"/></svg>
+                </a></li>
+                <a href="#" id="close"><li class="fa-regular fa-circle-xmark fa-xl"></li></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <li><a href="/static-website/html/cart.html" style="image-rendering:optimizeQuality;">
+                <svg fill="#000000" width="30px" height="30px" viewBox="0 0 0.9 0.9" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="m0.785 0.075 0.037 0.671a0.075 0.075 0 0 1 -0.071 0.079l-0.004 0H0.152a0.075 0.075 0 0 1 -0.075 -0.075c0 -0.002 0 -0.002 0 -0.004L0.115 0.075h0.671Zm-0.6 0.075 -0.033 0.6h0.596l-0.033 -0.6H0.185ZM0.263 0.225h0.075v0.094c0 0.047 0.052 0.094 0.112 0.094s0.112 -0.047 0.112 -0.094V0.225h0.075v0.094c0 0.09 -0.087 0.169 -0.188 0.169s-0.188 -0.079 -0.188 -0.169V0.225Z"/></svg>
+            </a></li>
+            <i id="bar" class="fas fa-outdent fa-2xl"></i>
+        </div>
+    </nav> 
+
+    <section id="details" class="section-p1">
+        <div class="group-imgs">   
+            <div class="big-img">
+                    <img src="/static-website/img/books/Fiction/img1.webp" alt="The Great Gatsby" width="100%" id="main-img">
+                </div>
+                <div class="small-group">
+                    <div class="small-imgs">
+                        <img src="/static-website/img/books/Fiction/small/img3.png" width="100%" alt="side img">
+                    </div>
+                    <div class="small-imgs">
+                        <img src="/static-website/img/books/Fiction/small/img1.png" width="100%" alt="side img">
+                    </div>
+                    <div class="small-imgs">
+                        <img src="/static-website/img/books/Fiction/small/img2.jpg" width="100%" alt="side img">
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="book-detail">
+            <h6><a href="/static-website/index.html">Home</a>/<a href="/static-website/html/fiction.html">Category</a>/<a href="/static-website/html/detail.html">The Great Gatsby</a></h6>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shope and <span>speacial offers.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="/static-website/img/icons/logo.png" alt="logo" id="logo">
+            <h4>Contact</h4>
+            <p><strong>Email Address: </strong>info@bookstore.vn</p>
+            <p><strong>Phone: </strong>(555) 555-5555</p>
+            <p><strong>Hours: </strong>10:00 - 20:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="/static-website/img/icons/app.jpg" alt="app store">
+                <img src="/static-website/img/icons/play.jpg" alt="googgle play">
+            </div>
+            <p>Scured Payment Gateways</p>
+            <img src="/static-website/img/icons/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 Bookstore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/3ca3267262.js" crossorigin="anonymous"></script>
+    <script src="/static-website/script.js"></script>
 </body>
 </html>

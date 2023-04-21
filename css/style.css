@@ -1,3 +1,13 @@
+/*
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Your names (e.g. Nguyen Van Minh)
+    ID: Your student ids (e.g. 1234567)
+    Acknowledgement: Acknowledge the resources that you use here.
+  */
+
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Satisfy&display=swap');
 
@@ -16,7 +26,7 @@ html{
 }
 
 
-/*Variables*/
+/*global Variables*/
 
 h3 a, h3{
     margin-left: 30px;
@@ -31,6 +41,10 @@ h4{
     color: black;
 }
 
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+  }
 
 
 .head{
@@ -39,7 +53,6 @@ h4{
 
 .section-p1{
     padding: 40px 80px;
-    font-family: 'Spartan', sans-serif;
 }
 
 #logo{
@@ -49,7 +62,7 @@ h4{
 }
 
 
-/*body*/
+/*Homepage*/
 body{
     display: flex;
     flex-direction: column;
@@ -127,7 +140,7 @@ section{
     flex-wrap: wrap;
     margin: auto;
 }
-/*books*/
+
 .book img{
     width: 200px;
     height: 300px;
@@ -157,13 +170,11 @@ section{
 }
 
 
-/*Newsletter*/
 #newsletter{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    font-family: 'Spartan', sans-serif;
     background-color: #041e42;
     background-position: 20% 30%;
 }
@@ -279,6 +290,30 @@ footer .copyright{
     width: 100%
 }
 
+/*Detail page*/
+#details .big-img{
+    padding-top: 50px;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.small-group{
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.small-group .small-imgs:hover {
+    box-shadow: 1px 1px 10px;
+}
+
+.group-imgs{
+    display: flex;
+}
+
+
+
 
 /*Media Screen*/
 @media (max-width:799px) {
@@ -353,7 +388,7 @@ footer .copyright{
 }
 
 @media (max-width: 477px) {
-    section{
+    section .main{
         width: 100%;
         text-align: center;
     }
@@ -386,7 +421,8 @@ footer .copyright{
         cursor: pointer;
     }
 
-    .bag{
-        display: none;
+    
+    #newsletter .form{
+        width: 100%;
     }
 }
