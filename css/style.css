@@ -494,26 +494,30 @@ footer .copyright{
     /*Single Product*/
 
     #details{
-        width: 100%;
         text-align: start;
         display: flex;
         flex-direction: column;
-
+        align-items: start;
     }
-
+    
     .group-imgs{
+        width: 200%;
         display: flex;
         flex-direction: column;
-        width: 300%;
-        justify-content: center;
-        align-items: center;
+        align-items: start;
     }
 
-    .big-img{
-        padding-left: 10px;
-    }
     .small-group{
+        display: inline-flex;
         flex-direction: row;
-        width: 40%;
+        width: 50%;
+    }
+
+    .big-img img{
+        width: 125%;
+    }
+
+    .book-detail{
+        min-width: 350px;
     }
 }
