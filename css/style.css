@@ -3,9 +3,9 @@
     Course: COSC2430 Web Programming
     Semester: 2023A
     Assessment: Assignment 1
-    Author: Your names (e.g. Nguyen Van Minh)
-    ID: Your student ids (e.g. 1234567)
-    Acknowledgement: Acknowledge the resources that you use here.
+    Author: Huynh Ngoc Giang My 
+    ID: s3978986 
+    Acknowledgement: Amazon.com, Gooreads.com
   */
 
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -108,8 +108,8 @@ nav{
 
 .name{
     font-family: 'aboreto';
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 500;
     color:black;
 }
 
@@ -185,7 +185,6 @@ section{
 .book:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
 }
-
 
 #newsletter{
     display: flex;
