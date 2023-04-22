@@ -309,7 +309,7 @@ footer .copyright{
 /*Detail page*/
 #details{
     display: flex;
-    justify-content: center;
+    width: 100%;
     padding: 40px;
 }
 
