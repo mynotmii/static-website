@@ -322,12 +322,21 @@ footer .copyright{
     display: flex;
     align-items:center;
     justify-content: center;
+    max-width: 700px;
+}
+
+.big-img img{
+    height: 448px;
 }
 
 .small-group{
     display: flex;
     flex-direction: column;
     width: 14%;
+}
+
+.small-group img{
+    height: 145px;
 }
 
 .small-imgs:hover {
