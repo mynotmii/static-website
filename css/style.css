@@ -322,7 +322,7 @@ footer .copyright{
     display: flex;
     align-items:center;
     justify-content: center;
-    max-width: 700px;
+    width: 700px;
 }
 
 .big-img img{
