@@ -592,12 +592,17 @@ footer .copyright{
 
     .button{
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         min-width: 254px;
+        min-height: 80px;
+        flex-wrap: wrap;
     }
 
     .button button{
         width: 120px;
+        padding: 10px 0;
     }
 
     #form-details form span#pref{
