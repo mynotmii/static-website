@@ -51,6 +51,12 @@ h6 {
     font-size: 12px;
   }
 
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
@@ -477,7 +483,7 @@ span#boe{
 }
 
 #about-vid .vid{
-    width: 70%;
+    width: 30%;
     height: 100%;
     margin: 30px auto 0 auto;
 }
