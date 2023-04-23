@@ -592,21 +592,19 @@ footer .copyright{
 
     .button{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        min-width: 254px;
-        min-height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 220px;
         flex-wrap: wrap;
     }
 
     .button button{
-        width: 120px;
-        padding: 10px 0;
+        max-width: 110px;
     }
 
     #form-details form span#pref{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .flex-box{
