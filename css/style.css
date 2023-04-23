@@ -399,7 +399,9 @@ footer .copyright{
     margin: 30px;
     border: 1px solid #e1e1e1;
     background-color: white;
+    padding: 40px;
 }
+
 #form-details form{
     width: 65%;
     display: flex;
