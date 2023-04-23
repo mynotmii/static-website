@@ -593,7 +593,6 @@ footer .copyright{
     .button{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: space-around;
         min-width: 254px;
         min-height: 80px;
