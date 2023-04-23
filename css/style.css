@@ -596,7 +596,7 @@ footer .copyright{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 50px;
+        align-self: center;
         min-width: 220px;
         flex-wrap: wrap;
     }
