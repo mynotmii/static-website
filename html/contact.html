@@ -43,34 +43,45 @@
     </nav> 
     
     <section id="form-details" class="section-p1">
-        <form action="">
+        <form id="form">
             <span>Leave a message</span>
             <h2>Contact Us</h2>
-            <span>
+            <span class="box">Reasons 
                 <Select>
-                    <option value="">I want to buy books</option>
-                    <option value="">I want to sell books</option>
+                    <option value="buy">I want to buy books</option>
+                    <option value="sell">I want to sell books</option>
                 </Select>
             </span>    
             <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Phone Number">
-            <span>
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone Number">
+            <span class="box" id="pref">
                 Contact preference
-                <input type="checkbox" id="email">
-                <label for="email">E-Mail</label>
-                <input type="checkbox" id="phone">
-                <label for="phone">Phone</label>
+                    <div class="flex-box">
+                        <input type="checkbox" id="email" class="not">
+                        <label for="email">E-Mail</label> 
+                    </div>
+                    <div class="flex-box">
+                        <input type="checkbox" id="phone" class="not">
+                        <label for="phone">Phone</label> 
+                    </div>
+            </span>
+            <span class="box">
+                <input type="checkbox" id="news" checked class="not">
+                <label for="news"> Recieve Newsletter</label>
             </span>
             <textarea name="" id="" cols="30" rows="10" placeholder="Notes"></textarea>
-            <button>Submit</button>
+            <div>
+                <button class="normal" onclick="rst()">Reset</button>
+                <button class="normal">Submit</button>
+            </div>
         </form>
     </section>
 
     <footer class="section-p1">
         <div class="col">
             <img src="/static-website/img/icons/logo.png" alt="logo" id="logo">
-            <h4>Contact</h4>
+            <h4 class="head">Contact</h4>
             <p><strong>Email Address: </strong>info@bookstore.vn</p>
             <p><strong>Phone: </strong>(555) 555-5555</p>
             <p><strong>Hours: </strong>10:00 - 20:00, Mon - Sat</p>

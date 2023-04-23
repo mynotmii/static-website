@@ -47,3 +47,7 @@ smallImg[1].onclick = function(){
 smallImg[2].onclick = function(){
     bigImg.src = smallImg[2].src;
 }
+
+function rst(){
+    document.getElementById('form').reset();
+}

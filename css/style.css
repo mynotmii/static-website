@@ -73,9 +73,10 @@ button.normal{
 }
 
 #logo{
-    width: 100px;
+    width: 150px;
     display: block;
     justify-content: center;
+    border-radius: 50%;
 }
 
 
@@ -392,6 +393,13 @@ footer .copyright{
 }
 
 /*Contact page*/
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+}
 #form-details form{
     width: 65%;
     display: flex;
@@ -401,7 +409,38 @@ footer .copyright{
 }
 
 #form-details form span{
-    font-size: 16px;
+    font-size: 12px;
+}
+
+#form-details form h2{
+    font-size:26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#form-details form input:not(.not),
+#form-details form textarea,
+#form-details form span.box
+{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    color: #fff;
+    background-color: #088178;
+}
+
+#form-details form span#pref{
+    display: flex;
+
+}
+
+.flex-box{
+    padding-inline: 20px;
 }
 
 
@@ -417,7 +456,7 @@ footer .copyright{
         right: -310px;
         height: 100vh;
         width: 300px;
-        background-color: white;
+        background-color: #fff;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
