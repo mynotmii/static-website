@@ -478,16 +478,17 @@ span#boe{
 
 #about-vid .vid{
     width: 70%;
-    height: 500px;
+    height: 100%;
     margin: 30px auto 0 auto;
-    border: 3px solid #1a1a1a;
 }
 
 #about-vid .vid video{
     width: 100%;
     height: 100%;
     border-radius: 25px;
+    border: 10px solid #041e42
 }
+
 /*Media Screen*/
 @media (max-width:799px) {
     #navbar-items{
@@ -571,7 +572,16 @@ span#boe{
         width: fit-content;
         height: auto;
         border-radius: 25px;
-        background-color: #adc4c3;
+    }
+
+    #about-head{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-head img{
+        width: 80%;
+        margin-bottom: 20px;
     }
 }
 
@@ -681,6 +691,18 @@ span#boe{
         height: fit-content;
         width: fit-content;
         border-radius: 25px;
-        border: 3px solid #1a1a1a;
+    }
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
     }
 }
