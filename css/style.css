@@ -405,7 +405,6 @@ footer .copyright{
     display: flex;
     flex-direction: column;
     align-items: start;
-
 }
 
 #form-details form span{
@@ -436,7 +435,6 @@ footer .copyright{
 
 #form-details form span#pref{
     display: flex;
-
 }
 
 .flex-box{
@@ -587,5 +585,27 @@ footer .copyright{
         justify-content: center;
         align-items: center;
         min-width: 350px;
+    }
+    #form-details form{
+        width: 100%;
+    }
+
+    .button{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 254px;
+    }
+
+    .button button{
+        width: 120px;
+    }
+
+    #form-details form span#pref{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-box{
+        padding-top: 20px;
     }
 }
