@@ -604,7 +604,7 @@ footer .copyright{
 
     #form-details form span#pref{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .flex-box{
