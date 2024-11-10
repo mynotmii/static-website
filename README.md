@@ -7,5 +7,5 @@
 - ID: s3978986 
 - Acknowledgement: Amazon.com, Gooreads.com
 
-Website URL: https://myiea.github.io/static-website/ <br>
-GitHub URL: https://github.com/Myiea/static-website
+Website URL: https://mynotmii.github.io/static-website/ <br>
+GitHub URL: https://github.com/mynotmii/static-website
